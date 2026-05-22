@@ -46,6 +46,16 @@ The organization's product repositories are **private by design**. Public visibi
 
 ---
 
+## Public overview repositories
+
+These are public orientation repositories. The actual training and implementation repositories remain private.
+
+- [`cloudops-lab-overview`](https://github.com/ninobyte-cloudops-lab/cloudops-lab-overview) — overview of the AI-Native CloudOps Lab.
+- [`ai-security-governance-lab-overview`](https://github.com/ninobyte-cloudops-lab/ai-security-governance-lab-overview) — overview of the AI Security & Governance Lab — AWS Edition.
+- [`student-workspace-preview`](https://github.com/ninobyte-cloudops-lab/student-workspace-preview) — preview of the ticket-driven learner workspace model.
+
+---
+
 ## Operating principles
 
 - **AWS-first depth** over shallow multi-cloud theory.
