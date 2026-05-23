@@ -2,7 +2,7 @@
 
 **AWS-native training labs for AI CloudOps, security, and governance.**
 
-Ninobyte CloudOps Lab builds governed, evidence-based training environments for professionals learning to build, operate, secure, and govern AWS AI workloads. We favor depth over breadth — real AWS services, documented guardrails, and portfolio-ready proof of work, not passive courses or unverifiable certificates. We are deliberately AWS-first: this is the applied training arm of Ninobyte's AI-native direction.
+Ninobyte CloudOps Lab builds governed, evidence-based training environments for professionals learning to build, operate, secure, and govern AWS AI workloads. We favor depth over breadth — AWS-native service practice, documented guardrails, and portfolio-ready proof of work, not passive courses or unverifiable certificates. We are deliberately AWS-first: this is the applied training arm of Ninobyte's AI-native direction.
 
 > **Build. Operate. Secure. Govern AWS AI systems.**
 
@@ -27,9 +27,9 @@ flowchart LR
 
 | Product | Focus | Audience | Status |
 |---|---|---|---|
-| **AI-Native CloudOps Lab** | Build, operate, and secure a real AWS Bedrock application inside a governed sandbox | Cloud builders, operators, emerging AWS/AI engineers, defensive security learners | Platform foundation |
+| **AI-Native CloudOps Lab** | Build, operate, and secure an AWS Bedrock workload inside a governed sandbox | Cloud builders, operators, emerging AWS/AI engineers, defensive security learners | Platform foundation; live AWS cohort readiness gated |
 | **AI Security & Governance Lab — AWS Edition** | Secure, audit, investigate, and govern AWS AI workloads via evidence-based job simulation | Cloud security engineers, GRC analysts, IT auditors, security managers, AI governance pros | Docs-first foundation complete; AWS execution gated |
-| **Student Workspace Model** | Ticket-driven learner workspace for AWS AI practice and proof-pack development | Enrolled learners and cohort participants | Private, beta-ready |
+| **Student Workspace Model** | Ticket-driven learner workspace for AWS AI practice and proof-pack development | Enrolled learners and cohort participants | Private template beta-ready; delivery workflow pending |
 
 ---
 
@@ -60,10 +60,10 @@ flowchart LR
 
 | Area | Status |
 |---|---|
-| Product architecture | Complete |
-| Student workspace | Private, beta-ready |
-| AWS execution | Gated by cost and safety validation |
-| Public materials | Overview-only |
+| Product architecture | Established; execution readiness remains gated |
+| Student workspace | Private template beta-ready; cohort workflow pending |
+| AWS execution | Blocked until cost, safety, and teardown validation pass |
+| Public materials | Overview-only; no internal solution or AWS details |
 
 ---
 
@@ -100,4 +100,4 @@ These repositories are **private by design** — they protect curriculum, lab de
 
 ## Contact
 
-For partnership, cohort, or review conversations, reach Ninobyte through its official channels.
+For partnership, cohort, team-training, or review conversations, reach Ninobyte through its official channels.
