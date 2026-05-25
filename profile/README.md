@@ -45,6 +45,12 @@ flowchart LR
 
 ---
 
+## 🔗 Sibling organization
+
+The applied AI systems, education data infrastructure, and product engineering work — including the Ghana Education Data OS and Teacher-to-Author Lab — lives in our sibling org [`ninobyte-labs`](https://github.com/ninobyte-labs). The two orgs share the same governance discipline; the AWS training labs live here, the data and product engineering work lives there.
+
+---
+
 ## ⚙️ Operating principles
 
 - **AWS-first depth** over shallow multi-cloud theory.
@@ -67,7 +73,7 @@ flowchart LR
 
 ---
 
-## Who this is for
+## 👥 Who this is for
 
 Students and working professionals building verifiable AWS AI skills; security and GRC practitioners who need hands-on AWS AI governance practice; cloud engineers operating real AI workloads; and partners or reviewers evaluating governed, evidence-based training.
 
