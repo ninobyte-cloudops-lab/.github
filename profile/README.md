@@ -1,109 +1,122 @@
-# 🧭 Ninobyte CloudOps Lab
+# Ninobyte CloudOps Lab
 
-**AWS-native training labs for AI CloudOps, security, and governance.**
+**AWS-native CloudOps and AI Security practice for governed AI work.**
 
-Ninobyte CloudOps Lab builds governed, evidence-based training environments for professionals learning to build, operate, secure, and govern AWS AI workloads. We favor depth over breadth — AWS-native service practice, documented guardrails, and portfolio-ready proof of work, not passive courses or unverifiable certificates. We are deliberately AWS-first: this is the applied training arm of Ninobyte's AI-native direction.
+![focus](https://img.shields.io/badge/focus-AWS%20AI%20CloudOps-2f5fbf)
+![security](https://img.shields.io/badge/security-defensive%20governance-2e7d32)
+![evidence](https://img.shields.io/badge/evidence-proof%20packs-555)
+![posture](https://img.shields.io/badge/posture-sandbox%20first-6f42c1)
 
-> **Build. Operate. Secure. Govern AWS AI systems.**
+Ninobyte CloudOps Lab is the AWS, CloudOps, and AI Security/Governance lab surface for Ninobyte's Connected AI Operator work. The lab is built around one practical doctrine: **Connect. Govern. Execute. Prove.**
+
+We use public overview repositories to explain the learning model and private lab systems to protect curriculum, learner work, sandbox design, and account details. The goal is verifiable AWS AI practice: safe constraints, defensive governance, audit evidence, and proof packs.
+
+---
+
+## Practice areas
+
+| Practice area | Focus | Public entry point | Status |
+|---|---|---|---|
+| **AI-Native CloudOps Lab** | Build and operate AWS AI workload patterns inside governed sandbox workflows. | [`cloudops-lab-overview`](https://github.com/ninobyte-cloudops-lab/cloudops-lab-overview) | Public overview released; live AWS execution remains gated. |
+| **AI Security & Governance Lab** | Secure, audit, investigate, and govern AWS AI workload patterns from a defensive posture. | [`ai-security-governance-lab-overview`](https://github.com/ninobyte-cloudops-lab/ai-security-governance-lab-overview) | Public overview released; lab execution remains gated. |
+| **Student Workspace Model** | Ticket-driven learner workspace for evidence capture and proof-pack development. | [`student-workspace-preview`](https://github.com/ninobyte-cloudops-lab/student-workspace-preview) | Public preview only; private template remains protected. |
 
 ```mermaid
 flowchart LR
     A[Ninobyte CloudOps Lab] --> B[AI-Native CloudOps Lab]
-    A --> C[AI Security & Governance Lab]
+    A --> C[AI Security and Governance Lab]
     A --> D[Student Workspace Model]
 
-    B --> B1[Build and operate AWS AI workloads]
-    C --> C1[Secure, audit, and govern AWS AI workloads]
-    D --> D1[Ticket-driven evidence and proof packs]
+    B --> B1[Governed AWS AI operations]
+    C --> C1[Defensive audit and governance practice]
+    D --> D1[Evidence and proof packs]
 
     B -. public overview .-> E[cloudops-lab-overview]
     C -. public overview .-> F[ai-security-governance-lab-overview]
     D -. public preview .-> G[student-workspace-preview]
 ```
 
----
+## Operating doctrine
 
-## 🧪 Product lines
+| Step | CloudOps meaning |
+|---|---|
+| **Connect** | Link AWS services, AI workload context, tickets, docs, and evidence into a coherent lab workflow. |
+| **Govern** | Set sandbox rules, cost boundaries, access limits, defensive scope, and review gates before execution. |
+| **Execute** | Perform guided build, operate, secure, and audit tasks inside constrained practice environments. |
+| **Prove** | Capture artifacts: tickets, screenshots, command summaries, architecture notes, and validation reports. |
 
-| Product | Focus | Audience | Status |
-|---|---|---|---|
-| **AI-Native CloudOps Lab** | Build, operate, and secure an AWS Bedrock workload inside a governed sandbox | Cloud builders, operators, emerging AWS/AI engineers, defensive security learners | Platform foundation; live AWS cohort readiness gated |
-| **AI Security & Governance Lab — AWS Edition** | Secure, audit, investigate, and govern AWS AI workloads via evidence-based job simulation | Cloud security engineers, GRC analysts, IT auditors, security managers, AI governance pros | Docs-first foundation complete; AWS execution gated |
-| **Student Workspace Model** | Ticket-driven learner workspace for AWS AI practice and proof-pack development | Enrolled learners and cohort participants | Private template beta-ready; delivery workflow pending |
+## Public overview repositories
 
----
-
-## 📦 Public overview repositories
-
-**Start here.** These public repositories are the best entry points for partners, students, and reviewers. The actual training and implementation repositories remain private by design.
+Public visitors should start here. These repos explain the lab surfaces without publishing full curriculum, implementation answers, or account-specific details.
 
 | Repository | What it covers |
 |---|---|
-| [`cloudops-lab-overview`](https://github.com/ninobyte-cloudops-lab/cloudops-lab-overview) | AI-Native CloudOps Lab overview |
-| [`ai-security-governance-lab-overview`](https://github.com/ninobyte-cloudops-lab/ai-security-governance-lab-overview) | AI Security & Governance Lab — AWS Edition overview |
-| [`student-workspace-preview`](https://github.com/ninobyte-cloudops-lab/student-workspace-preview) | Learner workspace model preview |
+| [`cloudops-lab-overview`](https://github.com/ninobyte-cloudops-lab/cloudops-lab-overview) | AI-Native CloudOps Lab positioning, workflow, boundaries, and proof model. |
+| [`ai-security-governance-lab-overview`](https://github.com/ninobyte-cloudops-lab/ai-security-governance-lab-overview) | Defensive AI security, governance, audit evidence, and GRC-oriented practice model. |
+| [`student-workspace-preview`](https://github.com/ninobyte-cloudops-lab/student-workspace-preview) | Portfolio-safe learner workspace structure and evidence expectations. |
 
----
+## How this relates to Connected AI Operator
 
-## 🔗 Sibling organization
+This org is the AWS practice lane for Connected AI Operator development. It teaches operators to work with cloud AI systems in a governed way:
 
-The applied AI systems, education data infrastructure, and product engineering work — including the Ghana Education Data OS and Teacher-to-Author Lab — lives in our sibling org [`ninobyte-labs`](https://github.com/ninobyte-labs). The two orgs share the same governance discipline; the AWS training labs live here, the data and product engineering work lives there.
+- connect cloud services and task context,
+- govern risk before granting access,
+- execute scoped work in repeatable lab patterns,
+- prove progress with artifacts that a reviewer can inspect.
 
----
+The CloudOps Lab is not about collecting tools. It is about turning cloud and AI work into disciplined, reviewable practice.
 
-## ⚙️ Operating principles
+## Sibling organization
+
+Applied AI systems, education data infrastructure, product documentation, and broader proof-of-work patterns live in [`ninobyte-labs`](https://github.com/ninobyte-labs). The two orgs share the same governance discipline: public-safe documentation, private implementation boundaries, and evidence before claims.
+
+## Public vs private boundary
+
+| Public here | Kept private |
+|---|---|
+| Overview READMEs and learning model explanations | Full curriculum and instructor materials |
+| High-level architecture and workflow diagrams | AWS account details and sandbox implementation specifics |
+| Defensive security and governance framing | Learner workspaces and assessment materials |
+| Proof-pack structure and evidence expectations | Internal solution guides and answer keys |
+| Portfolio-safe examples and previews | Credentials, account access details, and unreleased lab systems |
+
+## Operating principles
 
 - **AWS-first depth** over shallow multi-cloud theory.
-- **Evidence before claims** — work is shown, not asserted.
-- **Governance before deployment** — guardrails precede access.
-- **Safe sandboxes** over uncontrolled access.
-- **Proof packs** over passive certificates.
-- **No public leakage** of internal or learner materials.
+- **Defensive governance only** - no exploit lab framing.
+- **Sandbox first** - lab execution stays gated until access, cost, and teardown rules are ready.
+- **Evidence before claims** - work is shown through proof packs, not asserted through vague badges.
+- **Public overview, private implementation** - the public surface explains the model without exposing protected training material.
+- **Practical AI for real work** - the goal is disciplined cloud operation, not tool spectacle.
 
----
-
-## ✅ Status
+## Status
 
 | Area | Status |
 |---|---|
-| Product architecture | Established; execution readiness remains gated |
-| Student workspace | Private template beta-ready; cohort workflow pending |
-| AWS execution | Blocked until cost, safety, and teardown validation pass |
-| Public materials | Overview-only; no internal solution or AWS details |
+| Public overview repos | Released and aligned with the Phase 1A GitHub Facelift proof surface. |
+| Lab execution | Gated until sandbox, cost, access, and teardown checks are approved. |
+| Student workspace | Public preview available; private template remains protected. |
+| Training materials | Private by design until delivery boundaries are approved. |
 
----
+## Who this is for
 
-## 👥 Who this is for
+- Cloud builders and operators learning AWS AI workload practice.
+- Security and GRC practitioners who need defensive AI governance examples.
+- Teams evaluating evidence-based AI training.
+- Reviewers who want to inspect public-safe proof surfaces before a deeper conversation.
 
-Students and working professionals building verifiable AWS AI skills; security and GRC practitioners who need hands-on AWS AI governance practice; cloud engineers operating real AI workloads; and partners or reviewers evaluating governed, evidence-based training.
-
----
-
-## 🔒 Private product repositories
-
-These repositories are **private by design** — they protect curriculum, lab design, governance materials, and learner workspaces. Public visitors should use the [public overview repositories](#-public-overview-repositories) above.
-
-| Repository | Purpose |
-|---|---|
-| `ninobyte-cloudops-lab-core` | Curriculum, lab architecture, sandbox governance, and launch system for the AI-Native CloudOps Lab |
-| `ai-security-governance-lab-aws` | Product, curriculum, and governance foundation for the AI Security & Governance Lab — AWS Edition |
-| `ai-security-governance-lab-student-template` | Sanitized, portfolio-safe learner workspace template for the Security & Governance Lab |
-
-> 🚫 Internal solution guides, instructor answer keys, and AWS account details are never published. A future CloudOps student workspace is planned but does not yet exist.
-
----
-
-## 🚫 What this organization is not
+## What this organization is not
 
 - Not a public exploit lab.
 - Not a generic cybersecurity bootcamp.
-- Not a job guarantee.
-- Not a compliance certification.
+- Not a job, income, or certification promise.
+- Not a legal or compliance assurance.
 - Not a public repository of internal solution guides.
-- Not a claim of AWS partnership or official status.
-
----
+- Not a claim of AWS partnership or official AWS status.
+- Not a live production cloud platform.
 
 ## Contact
 
 For partnership, cohort, team-training, or review conversations, reach Ninobyte through its official channels.
+
+<sub>Ninobyte CloudOps Lab - Connect. Govern. Execute. Prove.</sub>
